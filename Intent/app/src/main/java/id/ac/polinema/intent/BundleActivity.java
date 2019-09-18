@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import id.ac.polinema.intent.model.User;
+
 public class BundleActivity extends AppCompatActivity {
 
 public static final String USERNAME_KEY = "username";
@@ -16,6 +18,8 @@ public static final String AGE_KEY = "age";
 private EditText usernameInput;
 private EditText nameInput;
 private EditText ageInput;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
